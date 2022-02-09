@@ -1,0 +1,1 @@
+/local/templates/sotbit_mailing_minimal/img/yourlogo.png

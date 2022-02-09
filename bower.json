@@ -1,0 +1,13 @@
+{
+  "name": "kit.mailing",
+  "version": "3.2.8",
+  "main": "",
+  "ignore": [
+    "source",
+    ".gitignore",
+    ".idea",
+    "bower.json",
+    "gulpfile.js",
+    "package.json"
+  ]
+}

@@ -1,0 +1,8 @@
+/*Menu icon*/
+
+
+.mailing_menu_icon {
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-image:url(icons/sotbit.mailing/icon.png) !important;
+}

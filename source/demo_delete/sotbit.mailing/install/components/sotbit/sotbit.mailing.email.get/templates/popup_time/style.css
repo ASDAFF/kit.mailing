@@ -1,0 +1,263 @@
+.sotbit_reg_pannel {
+    position: fixed;
+    bottom: -50px;
+    left: 0;
+    height: 50px;
+    background-color: #2B5779;
+    box-shadow: 0 -5px 10px #97547D;
+    width: 100%;
+    z-index: 1000;
+    box-shadow:  0px -2px 10px 0px #2B5779;
+    -webkit-box-shadow:  0px -2px 10px 0px #2B5779;
+    -moz-box-shadow:  0px -2px 10px 0px #2B5779;
+}
+.sotbit_reg_pannel,
+.sotbit_reg_pannel * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.sotbit_reg_pannel.open {
+    bottom: 0;
+}
+.f-sub-close {
+    background-color: #2B5779;
+    border-color: #FFFFFF;
+    border-image: none;
+    border-radius: 7px 7px 0 0;
+    border-style: solid solid none;
+    border-width: 3px 3px medium;
+    cursor: pointer;
+    height: 25px;
+    position: absolute;
+    right: 10px;
+    text-align: center;
+    top: -22px;
+    width: 35px;
+    box-shadow:  0px -2px 10px 0px #2B5779;
+    -webkit-box-shadow:  0px -2px 10px 0px #2B5779;
+    -moz-box-shadow:  0px -2px 10px 0px #2B5779;
+}
+.f-sub-close.toClose .f-actions {
+    background-color: #FFFFFF;
+    height: 4px;
+    margin: 9px auto 0;
+    width: 12px;
+    position: absolute;
+    top: 0px;
+    left: 9px;
+}
+.f-sub-close.toClose .f-actions-hor {
+    background-color: #FFFFFF;
+    position: absolute;
+    width: 4px;
+    height: 12px;
+    top: 5px;
+    left: 13px;    
+}
+.sotbit_reg_pannel.open .f-actions-hor {
+    display: none;    
+}
+.reg_bottom_pannel_in_wrap {
+    border-top: 3px solid #FFFFFF;
+    padding-top: 0px;        
+}
+.bottom_pannel_in {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+}
+.bottom_pannel_in label {
+    display: inline-block;
+    color: #fff;
+    text-shadow: 1px 1px 1px #335E8D;
+    font-family: Verdana;
+    font-size: 13px;
+    line-height: 32px;
+    height: 32px;
+    margin-left: 10px;
+}
+.bottom_pannel_in form {
+    position: relative;
+    display: inline-block;
+    width: 300px;
+    text-align: right;
+    margin-right: 10px;
+}
+.bottom_pannel_in form input[type="text"],
+.bottom_pannel_in form input[type="email"]{
+    width: 280px;
+    display: inline-block;
+    line-height: 30px;
+    height: 30px;
+    padding: 0 90px 0 7px;
+    border: 1px solid #AFAFAF;
+    border-radius: 7px;
+    font-family: Verdana;
+    font-size: 14px;
+    color: #999999;
+}
+.reg_bottom_pannel_in_wrap input[type="submit"] {
+    position: absolute;
+    right: 5px;
+    top: 4px;
+    height: 22px;
+    border: 1px solid #E9E9E9;
+    color: #656565;
+    text-shadow: 0 1px 0 #FFFFFF;
+    border-radius: 3px;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Verdana;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 0 5px;
+}
+
+.sotbit_open_reg_form {
+    font-family: Verdana;
+    font-size: 13px;
+    cursor: pointer;
+    text-decoration: underline;        
+}
+.sotbit_open_reg_form:hover {
+    text-decoration: none;        
+}
+/*style for modal window*/
+.sotbit_reg_form {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100%;
+    z-index: 1000;
+    overflow: hidden;
+    opacity: 0;
+}
+.sotbit_reg_form,
+.sotbit_reg_form * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    line-height: 1.42857;
+}
+.sotbit_reg_form .modal-window-bg {
+    background: url(images/modal-bg.png) 0 0 repeat;
+    width: 100%;
+    min-height: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.sotbit_reg_form .wrap-out {
+    position: absolute;
+    top: 55px;
+    width: 100%;
+    z-index: 103;
+}
+.sotbit_reg_form .wrap-out .container {
+    background: none;
+}
+.sotbit_reg_form .modal-block {
+    background: none;;
+    background-color: #2B5779;
+    max-width: 485px;
+    width: 98%;
+    margin: 0 auto;
+    padding: 8px;
+    position: relative;
+    z-index: 1010;
+}
+.sotbit_reg_form .modal-block .close {
+    height: 28px;
+    width: 28px;
+    display: block;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    cursor: pointer;
+    background: url(images/modal-close.png) 3px 5px no-repeat;
+}
+.sotbit_reg_form .modal-block-inner {
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    min-height: 150px;
+    z-index: 1050;
+}
+.sotbit_reg_form .modal-content {
+    width: 100%;
+}
+.sotbit_reg_form .modal-block-inner .modal-title {
+    font-family: 'Franklin Gothic Book', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    color: #a76e6e;
+}
+.sotbit_reg_form .register-error {
+    font: 14px Arial,Helvetica,sans-serif;
+    color: #FF0000; 
+}
+.sotbit_reg_form h3 {
+    padding: 8px 12px 10px 12px;
+}
+.sotbit_reg_form .register-form .field {
+    display: inline-block;
+    margin-bottom: 7px;
+    width: 100%;
+}
+.sotbit_reg_form .register-form .field_group {
+    padding: 10px 0 0 0;
+}
+.sotbit_reg_form .register-form .field {
+    display: inline-block;
+    font: 14px Arial,Helvetica,sans-serif;
+    margin-bottom: 7px;
+    width: 100%;
+}
+.sotbit_reg_form .register-form .field .field-title {
+    display: inline-block;
+    float: left;
+    font: 14px Arial,Helvetica,sans-serif;
+    font-weight: normal;
+    padding-right: 10px;
+    width: 23%;
+    min-width: 60px;
+}
+.sotbit_reg_form .register-form .field .field-newshecked {
+    font: 14px Arial,Helvetica,sans-serif;
+    font-weight: normal;  
+}
+.sotbit_reg_form .register-input,
+.sotbit_reg_form .register-form  .register-input:focus {
+    width: 60%;
+    border: 1px solid #bbbbbb;
+    color: #000000;
+    height: 18px;
+    font: 14px Arial,Helvetica,sans-serif;
+    font-weight: normal;
+}
+.sotbit_reg_form .register-form .register-input.capcha {
+    margin-bottom: 5px;    
+}
+.sotbit_reg_form .register-form .register-buttom {
+    text-align: center;
+    margin-top: 5px;
+}
+.sotbit_reg_form .register-form .register-buttom input[type="submit"]{
+    border: 1px solid #E9E9E9;
+    border-radius: 3px;
+    color: #656565;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Verdana;
+    font-size: 14px;
+    font-weight: bold;
+    height: 22px;
+    padding: 0 10px;
+    text-shadow: 0 1px 0 #FFFFFF;
+}
+/*End style for modal window*/

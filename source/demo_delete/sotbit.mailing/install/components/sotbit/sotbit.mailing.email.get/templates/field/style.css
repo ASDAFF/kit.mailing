@@ -1,0 +1,48 @@
+.sotbit_mailing_subscr_wrap_in {
+  position: relative;
+}
+.sotbit_mailing_subscr_wrap_in form {
+  display: inline-block;
+  position: relative;
+  width: 160px;
+}
+.sotbit_mailing_subscr_wrap_in label {
+  display: block;
+  font-family: Verdana;
+  font-size: 13px;
+  color: #000000;
+}
+.sotbit_mailing_subscr_wrap_in input[type="text"],
+.sotbit_mailing_subscr_wrap_in input[type="email"]{
+  background: none repeat scroll 0 0 #fff;
+  border-radius: 3px;
+  border: 1px solid #8ca3ae;
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.1) inset;
+  height: 30px;
+  line-height: 30px;
+  margin-top: 10px;
+  position: relative;
+  padding: 0px 7px 0px 7px;
+  font-family: Verdana;
+  font-size: 12px;
+  color: #999999;
+  width: 100%;
+}
+
+.sotbit_mailing_subscr_wrap_in input[type="submit"]{
+  background-color: #6e7278;
+  border: 1px solid #878a8e;
+  box-shadow: 0 1px 0 0 #dcddde inset;
+  color: #fff !important;
+  text-shadow: 0 -1px 0 #383e46;
+  margin: 8px 0px 8px 0px;
+  padding: 6px 10px 6px 10px;
+}
+
+.sotbit_mailing_subsrib_categories {
+  font-size: 12px;    
+}
+.sotbit_mailing_subsrib_categories p {
+  font-size: 13px;
+  margin-top: 4px;
+}

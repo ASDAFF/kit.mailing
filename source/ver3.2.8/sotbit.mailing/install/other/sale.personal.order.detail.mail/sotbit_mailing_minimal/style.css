@@ -1,0 +1,21 @@
+.name
+{
+    font: 13px 'Proxima Nova', Arial, sans-serif;
+    color: #616161;
+    line-height:29px;
+    -webkit-text-size-adjust: none;
+}
+.value
+{
+    font: 13px 'Proxima Nova', Arial, sans-serif;
+    color: #212121;
+    line-height: 29px;
+    -webkit-text-size-adjust: none;
+}
+.orderList
+{
+    font: 13px 'Proxima Nova', Arial, sans-serif;
+    color: #212121;
+    line-height: 16px;
+    -webkit-text-size-adjust: none;
+}

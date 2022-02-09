@@ -1,0 +1,1 @@
+<?$MESS['NAME_order_fillter_many_param'] = 'Универсальная рассылка по заказам - таргетинговые продажи';$MESS['DESCRIPTION_order_fillter_many_param'] = 'Рассылка по заказам с гибкой настройкой.';?>

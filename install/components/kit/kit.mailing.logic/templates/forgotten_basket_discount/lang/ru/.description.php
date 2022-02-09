@@ -1,0 +1,1 @@
+<?$MESS['NAME_forgotten_basket_discount'] = 'Брошенная корзина - мотивируем оформить заказ';$MESS['DESCRIPTION_forgotten_basket_discount'] = 'Производит рассылку сообщений по брошенной корзине';?>

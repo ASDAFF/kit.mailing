@@ -1,0 +1,1 @@
+/local/templates/kit_mailing_minimal/img/yourlogo.png

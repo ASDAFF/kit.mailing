@@ -1,0 +1,10 @@
+drop table if exists b_kit_mailing_event;
+drop table if exists b_kit_mailing_message;
+drop table if exists b_kit_mailing_message_text;
+drop table if exists b_kit_mailing_message_template;
+drop table if exists b_kit_mailing_unsubscribed;
+drop table if exists b_kit_mailing_undelivered;
+drop table if exists b_kit_mailing_categories;
+drop table if exists b_kit_mailing_subscribers;
+drop table if exists b_kit_mailing_subscribers_categ;
+DROP TABLE if exists b_kit_mailing_section

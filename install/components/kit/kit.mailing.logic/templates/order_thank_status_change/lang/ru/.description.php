@@ -1,0 +1,1 @@
+<?$MESS['NAME_order_thank_status_change'] = 'Благодарственное письмо при смене статуса заказа';$MESS['DESCRIPTION_order_thank_status_change'] = 'Отсылает письмо клиенту при переходе в определенный статус.';?>

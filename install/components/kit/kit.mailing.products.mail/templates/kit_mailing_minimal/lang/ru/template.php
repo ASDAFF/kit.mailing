@@ -1,0 +1,3 @@
+<?
+$MESS["CATALOG_BUY_PRODUCTS_MAIL_BASKET"] = "Купить";
+?>
